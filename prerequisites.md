@@ -37,11 +37,47 @@ Download and install them from their official sources:
 
 ---
 
-## ✅ Before You Begin
+## 🔧 Additional Development & Network Tools
 
-- Ensure all tools are installed and tested on your Windows environment  
-- Verify VM configurations if using virtualization  
-- Confirm administrator rights are active  
-- Review each lab folder for specific instructions and sample data  
+These tools are required to support lab exercises involving scripting, network analysis, and compliance testing.  
+Download and install them from their official sources:
+
+| Tool/Folder Name               | Purpose / Role                          | Required Installer File(s) | Official Download Link |
+|--------------------------------|------------------------------------------|----------------------------|------------------------|
+| **Adobe Reader**               | PDF viewer for documentation             | —                          | [Adobe Reader](https://get.adobe.com/reader/) |
+| **Java Runtime Environment (JRE 8u391)** | Java application runtime | `jre-8u391-windows-x64.exe` | [Java Runtime Environment 8u391](https://www.java.com/en/download/manual.jsp) |
+| **Java SE Development Kit (JDK 21)**  | Java development and compilation | `jdk-21_windows-x64_bin.exe` | [Java SE Development Kit 21](https://www.oracle.com/java/technologies/downloads/) |
+| **Microsoft Visual C++ Redistributables** | Runtime libraries for C++ applications (required for legacy and modern tools) | `vcredist_2010_sp1_x64.exe`<br>`vcredist_2010_sp1_x86.exe`<br>`vcredist_2012_upd4_x64.exe`<br>`vcredist_2012_upd4_x86.exe`<br>`vcredist_2013_upd5_x64.exe`<br>`vcredist_2013_upd5_x86.exe`<br>`vcredist_2022_x64.exe`<br>`vcredist_2022_x86.exe` | [Visual C++ Redistributables](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) |
+| **Notepad++**                  | Editor for scripts and logs              | `npp.8.5.8.Installer.x64.exe` | [Notepad++](https://notepad-plus-plus.org/downloads/) |
+| **PuTTY**                      | SSH/Telnet client                        | `putty-64bit-0.79-installer.msi` | [PuTTY](https://www.putty.org/) |
+| **WampServer**                 | Local web server (Apache, MySQL, PHP)    | `wampserver3.3.0_x64.exe` | [WampServer](https://www.wampserver.com/en/download-wampserver-64bits/) |
+| **Web Browsers (Chrome, Firefox, Edge)** | UI validation and cross-browser testing | `ChromeSetup.exe`<br>`Firefox Installer.exe` | [Chrome](https://www.google.com/chrome/), [Firefox](https://www.mozilla.org/firefox/), [Edge](https://www.microsoft.com/edge) |
+| **WinPcap**                    | Network traffic capture library          | `WinPcap_4_1_3.exe` | [WinPcap](https://www.winpcap.org/install/) |
+| **WinRAR**                     | File compression and archiving           | `winrar-x64-624.exe` | [WinRAR](https://www.win-rar.com/download.html) |
 
 ---
+
+## 🛠️ Visual C++ Redistributable Verification Script (PowerShell)
+
+Use the following PowerShell script to verify that all required Visual C++ Redistributables are installed:
+
+```powershell
+$requiredVersions = @(
+    "Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219",
+    "Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219",
+    "Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030",
+    "Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030",
+    "Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40664",
+    "Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.40664",
+    "Microsoft Visual C++ 2022 X64 Additional Runtime",
+    "Microsoft Visual C++ 2022 X86 Additional Runtime"
+)
+
+$installed = Get-WmiObject -Class Win32_Product | Select-Object -ExpandProperty Name
+foreach ($version in $requiredVersions) {
+    if ($installed -contains $version) {
+        Write-Host "$version is installed." -ForegroundColor Green
+    } else {
+        Write-Host "$version is NOT installed." -ForegroundColor Red
+    }
+}
