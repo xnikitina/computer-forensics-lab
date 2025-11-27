@@ -63,23 +63,23 @@ computer-forensics-lab/
 │   │   ├── README.md            # Lab description, scenario, objectives, steps
 │   │   ├── prerequisites.md     # Requirements (VMs, tools, environment setup)
 │   │   └── docs/                # Supporting docs, screenshots, notes
-│   ├── lab2/                    #
+│   ├── lab2/                    # Perform Hash/HMAC Calculations
 │   │   ├── README.md
 │   │   ├── prerequisites.md
 │   │   └── docs/
-│   ├── lab3/                    # 
+│   ├── lab3/                    # Compare Hash Values
 │   │   ├── README.md            
 │   │   ├── prerequisites.md     
 │   │   └── docs/                
-│   ├── lab4/                    #
+│   ├── lab4/                    # View Files in Multiple Formats
 │   │   ├── README.md
 │   │   ├── prerequisites.md
 │   │   └── docs/
-│   ├── lab5/                    #
+│   ├── lab5/                    # Handle Evidence Properly
 │   │   ├── README.md
 │   │   ├── prerequisites.md
 │   │   └── docs/
-│   ├── lab6/                    #
+│   ├── lab6/                    # Create a Disk Image
 │   │   ├── README.md
 │   │   ├── prerequisites.md
 │   │   └── docs/
