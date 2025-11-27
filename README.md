@@ -14,7 +14,7 @@ Investigators must follow strict, repeatable, and documented processes to ensure
 - Create a disk image of a hard disk partition
 
 ## 🖥️ Lab Environment
-- Windows 11 VM and Windows Server 2022 VM
+- Windows 11 (VM or physical) and Windows Server 2022 VM
 - Internet access via web browsers
 - Administrator privileges for forensic tools
 
