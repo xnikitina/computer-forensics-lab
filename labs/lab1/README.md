@@ -16,7 +16,11 @@ Your task as a computer forensic investigator: recover the deleted files using f
 - Windows Server 2022 VM
 - Internet connection + admin rights
 
-## 📝 Steps
+## 📖 Overview
+This lab familiarizes you with the tool **EaseUS Data Recovery Wizard** and helps you understand how to recover files
+that have been deleted from a Windows system.
+
+## 📝 Steps/Tasks
 1. Start VMs and log in.  
 2. Copy sample files to **Forensic Disk (F:)** and delete with **Shift+Del**.  
 3. Install and run **EaseUS Data Recovery Wizard**.  
@@ -25,4 +29,5 @@ Your task as a computer forensic investigator: recover the deleted files using f
 6. Save recovered files to `Documents/Recovered Files`.  
 7. Verify recovery and folder structure.  
 8. Document process and shut down VM.
+
 
