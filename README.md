@@ -55,3 +55,21 @@ Investigators must follow strict, repeatable, and documented processes to ensure
 ---
 
 ## 📂 Repository Structure
+computer-forensics-lab/
+│
+├── labs/
+│   ├── lab1/
+│   │   ├── README.md              # Lab description, scenario, objectives, steps
+│   │   ├── prerequisites.md       # Requirements (VMs, tools, environment setup)
+│   │   └── lab1_docs/             # Supporting docs, screenshots, notes
+│   │
+│   ├── lab2/
+│   │   ├── README.md
+│   │   ├── prerequisites.md
+│   │   └── lab2_docs/
+│   │
+│   └── labN/ ...
+│
+├── README.md                      # Main project overview
+└── prerequisites.md                # Global prerequisites for all labs
+
