@@ -54,30 +54,3 @@ Download and install them from their official sources:
 | **Web Browsers (Chrome, Firefox, Edge)** | UI validation and cross-browser testing | `ChromeSetup.exe`<br>`Firefox Installer.exe` | [Chrome](https://www.google.com/chrome/), [Firefox](https://www.mozilla.org/firefox/), [Edge](https://www.microsoft.com/edge) |
 | **WinPcap**                    | Network traffic capture library          | `WinPcap_4_1_3.exe` | [WinPcap](https://www.winpcap.org/install/) |
 | **WinRAR**                     | File compression and archiving           | `winrar-x64-624.exe` | [WinRAR](https://www.win-rar.com/download.html) |
-
----
-
-## 🛠️ Visual C++ Redistributable Verification Script (PowerShell)
-
-Use the following PowerShell script to verify that all required Visual C++ Redistributables are installed:
-
-```powershell
-$requiredVersions = @(
-    "Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219",
-    "Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219",
-    "Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030",
-    "Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030",
-    "Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40664",
-    "Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.40664",
-    "Microsoft Visual C++ 2022 X64 Additional Runtime",
-    "Microsoft Visual C++ 2022 X86 Additional Runtime"
-)
-
-$installed = Get-WmiObject -Class Win32_Product | Select-Object -ExpandProperty Name
-foreach ($version in $requiredVersions) {
-    if ($installed -contains $version) {
-        Write-Host "$version is installed." -ForegroundColor Green
-    } else {
-        Write-Host "$version is NOT installed." -ForegroundColor Red
-    }
-}
