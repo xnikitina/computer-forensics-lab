@@ -21,7 +21,7 @@ This lab familiarizes you with the tool **EaseUS Data Recovery Wizard** and help
 that have been deleted from a Windows system.
 
 ## 📝 Steps/Tasks
-1. Start VMs and log in.  
+1. Turn on the Windows 11 and Windows Server 2022 virtual machines. 
 2. Copy sample files to **Forensic Disk (F:)** and delete with **Shift+Del**.  
 3. Install and run **EaseUS Data Recovery Wizard**.  
 4. Scan disk (Quick + Advanced).  
@@ -29,5 +29,6 @@ that have been deleted from a Windows system.
 6. Save recovered files to `Documents/Recovered Files`.  
 7. Verify recovery and folder structure.  
 8. Document process and shut down VM.
+
 
 
