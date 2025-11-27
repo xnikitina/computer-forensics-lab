@@ -28,7 +28,7 @@ Investigators must follow strict, repeatable, and documented processes to ensure
 
 ## 🧪 Lab Tasks
 
-### Lab 1: Recover Deleted Files
+### Lab 1: Recover Data from a Windows Hard Disk
 - Use **EaseUS Data Recovery Wizard** to restore deleted files from a Windows hard disk.
 - Document recovered files and note integrity checks.
 
@@ -55,19 +55,34 @@ Investigators must follow strict, repeatable, and documented processes to ensure
 ---
 
 ## 📂 Repository Structure
+
+```text
 computer-forensics-lab/
 ├── labs/
-│   ├── lab1/
+│   ├── lab1/                    # Recover Data from a Windows Hard Disk
 │   │   ├── README.md            # Lab description, scenario, objectives, steps
 │   │   ├── prerequisites.md     # Requirements (VMs, tools, environment setup)
 │   │   └── docs/                # Supporting docs, screenshots, notes
-│   ├── lab2/
+│   ├── lab2/                    #
 │   │   ├── README.md
 │   │   ├── prerequisites.md
 │   │   └── docs/
-│   └── labN/
-│       ├── README.md
-│       ├── prerequisites.md
-│       └── docs/
+│   ├── lab3/                    # 
+│   │   ├── README.md            
+│   │   ├── prerequisites.md     
+│   │   └── docs/                
+│   ├── lab4/                    #
+│   │   ├── README.md
+│   │   ├── prerequisites.md
+│   │   └── docs/
+│   ├── lab5/                    #
+│   │   ├── README.md
+│   │   ├── prerequisites.md
+│   │   └── docs/
+│   ├── lab6/                    #
+│   │   ├── README.md
+│   │   ├── prerequisites.md
+│   │   └── docs/
 ├── README.md                    # Main project overview
 └── prerequisites.md             # Global prerequisites for all labs
+```
