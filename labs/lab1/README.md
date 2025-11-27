@@ -13,7 +13,6 @@ Your task as a computer forensic investigator: recover the deleted files using f
 
 ## 🖥️ Environment
 - Windows 11 (VM or physical)
-- Windows Server 2022 VM
 - Internet connection + admin rights
 
 ## 📖 Overview
@@ -21,14 +20,28 @@ This lab familiarizes you with the tool **EaseUS Data Recovery Wizard** and help
 that have been deleted from a Windows system.
 
 ## 📝 Steps/Tasks
-1. Turn on the Windows 11 and Windows Server 2022 virtual machines. 
-2. Copy sample files to **Forensic Disk (F:)** and delete with **Shift+Del**.  
-3. Install and run **EaseUS Data Recovery Wizard**.  
-4. Scan disk (Quick + Advanced).  
-5. Preview and recover deleted files.  
-6. Save recovered files to `Documents/Recovered Files`.  
-7. Verify recovery and folder structure.  
-8. Document process and shut down VM.
 
+**Note:** In this lab, we are considering that the footprint of the investigation is not a major issue.
 
+1. Turn on the Windows 11. 
+2. Copy sample files, `Financial Statement Sample.pdf` and `Profit and Loss Statement Sample.xlsx` to some example folder and permanently delete them with **Shift+Del**.
+3. Create some other folder **Recovered Files**. (Recovered files or folders should ideally be saved to a different drive, such as an external USB device or cloud storage, rather than the original disk.)
+4. Install (if not) and run **EaseUS Data Recovery Wizard**.  
+5. In the **Devices and Drives** section select path to folder with deleted sample files  and click **Search for lost Data**.  
+6. Navigate to found deleted files `Financial Statement Sample.pdf` and `Profit and Loss Statement Sample.xlsx` and with right‑click select **Preview**.
+Note: Full preview is only available in the premium version.
+7. Select files in the preview and click **Recover**.
+8. In the **Browse for Folder** window, select the **Recovered Files** folder created earlier. 
+9. Save recovered files to `Documents/Recovered Files`.
+10. A **Recover Complete** window appears → close it.
+11. Files are saved to `Documents\Recovered Files`. EaseUS auto‑creates sub‑folders:  `Recovered → Preview`.
+12. Navigate manually to:  `Documents\Recovered Files\Recovered\Preview` 
+13. Verify recovery and folder structure.  
 
+---
+
+## ✅ Outcome
+By completing this lab, you have:
+- Practiced recovering permanently deleted files.  
+- Verified file integrity using EaseUS Data Recovery Wizard.  
+- Documented the recovery process for forensic reporting.  
