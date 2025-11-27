@@ -12,7 +12,7 @@ Your task as a computer forensic investigator: recover the deleted files using f
 - Document recovery process for chain of custody.
 
 ## 🖥️ Environment
-- Windows 11
+- Windows 11 (VM or physical)
 - Windows Server 2022 VM
 - Internet connection + admin rights
 
@@ -25,3 +25,4 @@ Your task as a computer forensic investigator: recover the deleted files using f
 6. Save recovered files to `Documents/Recovered Files`.  
 7. Verify recovery and folder structure.  
 8. Document process and shut down VM.
+
