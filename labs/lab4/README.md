@@ -26,9 +26,8 @@ This makes File Viewer efficient for quickly identifying suspicious files, detec
 ---
 
 ## 🖥️ Environment
-- Windows system with **File Viewer** available.  
-- Evidence files located in `E:\CHFI-Tools\Evidence Files\Image Files`.  
-
+- Windows system with **File Viewer** available.
+- 
 ---
 
 ## 📝 Steps/Tasks
@@ -36,15 +35,20 @@ This makes File Viewer efficient for quickly identifying suspicious files, detec
 ### 1. Open an Image File
 - Launch **File Viewer**.  
 - Go to **File → Open**.  
-- Navigate to `E:\CHFI-Tools\Evidence Files\Image Files`.  
-- Select `cartoon-article.jpg` and click **Open**.  
+- Select `tim-mossholder-unsplash.jpg` and click **Open**.  
 - The image opens in the File Viewer window.  
 - Go to **File → File Properties** to view metadata such as size, type, and creation date.
 
-### 2. Attempt to Open a Video File
+### 2. Open a Music File
+- Launch **File Viewer**.  
+- Go to **File → Open**.  
+- Select `sweet-life-luxury-chill.mp3` and click **Open**.  
+- The image opens in the File Viewer window.  
+- Go to **File → File Properties** to view metadata such as size, type, and creation date.
+
+### 3. Attempt to Open a Video File
 - In **File Viewer**, go to **File → Open** again.  
-- Navigate to the evidence folder.  
-- Select `520px-Biohazard_symbol_(blue).mp4` and click **Open**.  
+- Select `small.mp4` and click **Open**.  
 - File Viewer attempts to run the file but fails, showing a blank screen.  
 - This indicates the file may be corrupt or its extension has been altered.  
 - Such files require further forensic investigation.
@@ -62,4 +66,5 @@ By completing this lab, you have:
 - Learned to open files of different formats using File Viewer.  
 - Viewed file properties to gather forensic metadata.  
 - Identified suspicious files that may have been corrupted or tampered with.
+
 
