@@ -7,7 +7,7 @@ To perform this lab, ensure the following requirements are met:
 - Administrator privileges
 
 ## 📂 Evidence Files
-- Example files: `peacesign.jpg`, `Friends2.jpg`, `Model.png`
+- Example files: `image1.jpg`, `image2.jpg`, `image_3.png`
 - Hash repository: `Hashes.txt`
 
 ## 🔧 Tool
@@ -20,3 +20,4 @@ To perform this lab, ensure the following requirements are met:
 - Understanding of **hashing** and its role in integrity verification  
 - Awareness that if two hash values match → the file is unchanged  
 - If hash values differ → the file may have been modified and requires deeper investigation
+
