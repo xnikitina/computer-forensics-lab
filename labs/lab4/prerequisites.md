@@ -8,8 +8,9 @@ To perform this lab, ensure the following requirements are met:
 
 ## 📂 Evidence Files
 - Example files:
-  - `cartoon-article.jpg`
-  - `520px-Biohazard_symbol_(blue).mp4`
+  - `tim-mossholder-unsplash.jpg`
+  - `sweet-life-luxury-chill.mp3`
+  - `small.mp4`
 
 ## 🔧 Tool
 - **File Viewer** → Used to:
@@ -22,3 +23,4 @@ To perform this lab, ensure the following requirements are met:
 - Understanding of common file formats (`.doc`, `.jpg`, `.png`, `.mp3`, `.pdf`, `.txt`, etc.)  
 - Awareness that attackers may change file extensions or corrupt files to hide malicious content  
 - Ability to recognize when a file fails to open and flag it for deeper forensic analysis
+
