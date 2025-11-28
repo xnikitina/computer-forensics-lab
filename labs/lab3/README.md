@@ -24,7 +24,7 @@ If the values match, the integrity is preserved; if not, the file may have been 
 
 ## 🖥️ Environment
 - Windows system with **MD5 Calculator** installed.  
-- Evidence files.  
+- Evidence files (image1.jpg, image2.jpg, image3.jpg).  
 - Hash repository file: `Hashes.txt`.  
 
 ---
@@ -63,4 +63,5 @@ By completing this lab, you have:
 - Learned to compute MD5 hashes of files.  
 - Compared generated hashes with stored values.  
 - Verified file integrity and identified potential modifications.
+
 
