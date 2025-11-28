@@ -30,14 +30,14 @@ Hashing produces a fixed‑length string (digest) that uniquely represents data.
 
 ---
 
-## 🖥️ Lab Environment
+## 🖥️ Environment
 - Windows system with **HashCalc** installed.  
 - Web browser with internet access.  
 - Sample evidence files (e.g., `Kitty.jpg`, `Infected.pdf`).  
 
 ---
 
-## 📝 Steps
+## 📝 Steps/Tasks
 
 ### 1. Select a File for Hashing
 - Open **HashCalc**.  
@@ -89,3 +89,4 @@ By completing this lab, you have:
 - Learned to compute hashes and HMACs using HashCalc.  
 - Understood the role of different hash algorithms.  
 - Practiced verifying suspicious files against VirusTotal.  
+
