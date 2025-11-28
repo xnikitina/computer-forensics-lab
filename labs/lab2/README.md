@@ -33,7 +33,7 @@ Hashing produces a fixed‑length string (digest) that uniquely represents data.
 ## 🖥️ Environment
 - Windows system with **HashCalc** installed.  
 - Web browser with internet access.  
-- Sample evidence files (e.g., `Kitty.jpg`, `Infected.pdf`).  
+- Sample evidence file (`Sample.jpg`).  
 
 ---
 
@@ -42,7 +42,7 @@ Hashing produces a fixed‑length string (digest) that uniquely represents data.
 ### 1. Select a File for Hashing
 - Open **HashCalc**.  
 - In **Data Format**, choose **File**.  
-- Select a sample file (e.g., `Kitty.jpg`).  
+- Select a sample file (`Sample.jpg`).  
 
 ### 2. Compute Hash Values
 - Ensure the **HMAC** box is unchecked.  
@@ -66,9 +66,26 @@ Hashing produces a fixed‑length string (digest) that uniquely represents data.
 - HashCalc displays the hash values for the text.  
 
 ### 5. Verify a Suspicious File with VirusTotal
-- In HashCalc, select **File** and choose `Infected.pdf` from the evidence folder.  
-- Calculate its **MD5** hash (other algorithms may also be selected).  
-- Copy the MD5 hash value.  
+To simulate a suspicious file, you have two safe options:
+1. **Create the EICAR test file yourself**  
+   - Copy the official EICAR test string:  
+     ```
+     X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*
+     ```
+   - Save it as a plain text file (e.g., `eicar.com.txt`).  
+   - Optionally rename it to `Infected.pdf` for the lab scenario.  
+   - Open **HashCalc**, select **File**, and choose this file.  
+   - Calculate its **MD5** hash (other algorithms may also be selected).  
+   - Copy the MD5 hash value.
+
+2. **Use the known official hash values directly**  
+   - Instead of creating the file, you can take the published EICAR hashes and paste them into VirusTotal:  
+     - MD5: `44d88612fea8a8f36de82e1278abb02f`  
+     - SHA‑1: `3395856ce81f2b7382dee72602f798b642f14140`  
+     - SHA‑256: `275a021bbfb6480f1a5c3f7d8c5f7b0b0d4b8026f1ed1f5b5f3f8c02c0b9fba3` 
+
+> ⚠️ **Note:** Antivirus software may automatically delete the EICAR test file when you save it.  
+> If this happens, either use the official hash values directly or create the file in a controlled lab environment without active antivirus protection.
 
 ### 6. Search Hash on VirusTotal
 - Open a web browser and go to [VirusTotal](https://www.virustotal.com/gui/home/search).  
@@ -89,4 +106,3 @@ By completing this lab, you have:
 - Learned to compute hashes and HMACs using HashCalc.  
 - Understood the role of different hash algorithms.  
 - Practiced verifying suspicious files against VirusTotal.  
-
