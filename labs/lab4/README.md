@@ -14,14 +14,14 @@ Using **File Viewer**, they were able to recognize the true format and extract t
 
 ---
 
-## 🔧 Tool Explained
-- **File Viewer** → A forensic utility that can open and display files of many formats
-(e.g., `.doc`, `.jpg`, `.png`, `.mp3`, `.pdf`, `.txt`).  
-- It allows investigators to:
-  - Quickly locate files.  
-  - View their contents regardless of extension.  
-  - Inspect file properties to determine authenticity and integrity.  
-- If a file fails to open or displays incorrectly, this may indicate corruption or tampering.
+### 🔧 Tool Description – File Viewer
+**File Viewer** is a forensic utility that allows investigators to:
+- Open files of multiple formats (images, documents, audio, video, text).
+- Inspect file contents even if the extension has been changed.
+- View file properties and metadata (size, timestamps, author, hidden strings).
+- Work in read‑only mode to preserve evidence integrity.
+
+This makes File Viewer efficient for quickly identifying suspicious files, detecting format manipulation, and gathering forensic details without altering the original data.
 
 ---
 
@@ -62,3 +62,4 @@ By completing this lab, you have:
 - Learned to open files of different formats using File Viewer.  
 - Viewed file properties to gather forensic metadata.  
 - Identified suspicious files that may have been corrupted or tampered with.
+
