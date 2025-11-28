@@ -33,21 +33,21 @@ If the values match, the integrity is preserved; if not, the file may have been 
 
 ### 1. Calculate a Hash Value
 - Open **MD5 Calculator**.  
-- Click **Add Files** and select `peacesign.jpg` from the evidence folder.  
+- Click **Add Files** and select `image1.jpg` from the evidence folder.  
 - Click **Calculate** to generate the MD5 hash.  
 - The hash value appears under the **MD5 Value** section.
 
-### 2. Compare Hashes of Friends2.jpg
+### 2. Compare Hashes of image2.jpg
 - Open `Hashes.txt` in the evidence folder.  
-- Copy the stored hash value for `Friends2.jpg`.  
-- In **MD5 Calculator**, add `Friends2.jpg` and calculate its MD5 hash.  
+- Copy the stored hash value for `image2.jpg`.  
+- In **MD5 Calculator**, add `image2.jpg` and calculate its MD5 hash.  
 - Paste the copied hash into the **Verify MD5 Value** field.  
 - Click **Compare**.  
 - If the values match → the file’s integrity is intact.
 
-### 3. Compare Hashes of Model.png
-- Copy the stored hash value for `Model.png` from `Hashes.txt`.  
-- In **MD5 Calculator**, add `Model.png` and calculate its MD5 hash.  
+### 3. Compare Hashes of image3.jpg
+- Copy the stored hash value for `image3.jpg` from `Hashes.txt`.  
+- In **MD5 Calculator**, add `image3.jpg` and calculate its MD5 hash.  
 - Paste the copied hash into the **Verify MD5 Value** field.  
 - Click **Compare**.  
 - If the values do not match → the file’s integrity is questionable and requires further investigation.
@@ -63,3 +63,4 @@ By completing this lab, you have:
 - Learned to compute MD5 hashes of files.  
 - Compared generated hashes with stored values.  
 - Verified file integrity and identified potential modifications.
+
