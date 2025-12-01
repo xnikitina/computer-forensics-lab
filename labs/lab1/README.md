@@ -41,7 +41,8 @@ Note: Full preview is only available in the premium version.
 ---
 
 ## ✅ Outcome
-By completing this lab, you have:
+
 - Practiced recovering permanently deleted files.  
 - Verified file integrity using EaseUS Data Recovery Wizard.  
 - Documented the recovery process for forensic reporting.  
+
