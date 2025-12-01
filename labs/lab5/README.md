@@ -29,7 +29,7 @@ In this lab, you will learn how to use **FTK Imager** to examine and manage evid
 
 ## 🖥️ Lab Environment
 - Windows system with **FTK Imager** available.  
-- Evidence image file: `dfr-01-recycle-ntfs.dd`.
+- Evidence image file: `dfr-01-recycle-ntfs.dd`. [Visit NIST CFReDS Test Images](https://cfreds-archive.nist.gov/dfr-test-images.html)
 
 ---
 
@@ -113,5 +113,6 @@ By completing this lab, you have:
 - Viewed and analyzed file system contents from a disk image.  
 - Identified deleted files and exported them for further investigation.  
 - Preserved evidence integrity while preparing data for court presentation.
+
 
 
