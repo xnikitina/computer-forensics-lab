@@ -60,7 +60,7 @@ Hashing produces a fixed‑length string (digest) that uniquely represents data.
 
 ### 4. Hash a Text String
 - In **Data Format**, select **Text String**.  
-- Enter sample text (e.g., `Hello David, how have you been?`).  
+- Enter sample text (e.g., `Hello, how are you?`).  
 - Uncheck **HMAC**.  
 - Select algorithms and click **Calculate**.  
 - HashCalc displays the hash values for the text.  
@@ -106,3 +106,4 @@ By completing this lab, you have:
 - Learned to compute hashes and HMACs using HashCalc.  
 - Understood the role of different hash algorithms.  
 - Practiced verifying suspicious files against VirusTotal.  
+
