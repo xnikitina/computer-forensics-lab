@@ -33,7 +33,7 @@ In this lab, you will learn how to use **FTK Imager** to examine and manage evid
 
 ---
 
-## 📝 Steps
+## 📝 Steps/Tasks
 
 ### 1. Add Evidence Item
 - Launch **FTK Imager**.  
@@ -73,3 +73,4 @@ By completing this lab, you have:
 - Viewed and analyzed file system contents from a disk image.  
 - Identified deleted files and exported them for further investigation.  
 - Preserved evidence integrity while preparing data for court presentation.
+
