@@ -27,7 +27,7 @@ This makes File Viewer efficient for quickly identifying suspicious files, detec
 
 ## 🖥️ Environment
 - Windows system with **File Viewer** available.
-- 
+
 ---
 
 ## 📝 Steps/Tasks
@@ -66,6 +66,7 @@ By completing this lab, you have:
 - Learned to open files of different formats using File Viewer.  
 - Viewed file properties to gather forensic metadata.  
 - Identified suspicious files that may have been corrupted or tampered with.
+
 
 
 
